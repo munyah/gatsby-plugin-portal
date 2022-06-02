@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-portal",
+  "name": "gvi-gatsby-plugin-portal",
   "version": "1.2.0",
   "description": "Plugin to add a div element to the root html file for use by react portal.",
   "main": "index.js",
