@@ -23,9 +23,6 @@
     "type": "git",
     "url": "https://github.com/munyah/gatsby-plugin-portal"
   },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  },
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.3.1"
