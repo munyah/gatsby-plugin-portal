@@ -1,12 +1,9 @@
 "use strict";
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
-
 exports.__esModule = true;
 exports.onRenderBody = void 0;
-
 var _react = _interopRequireDefault(require("react"));
-
 var onRenderBody = function onRenderBody(_ref, pluginOptions) {
   var setPostBodyComponents = _ref.setPostBodyComponents;
   setPostBodyComponents([/*#__PURE__*/_react["default"].createElement("div", {
@@ -14,5 +11,4 @@ var onRenderBody = function onRenderBody(_ref, pluginOptions) {
     id: pluginOptions.id ? pluginOptions.id : 'portal'
   }, pluginOptions.text)]);
 };
-
 exports.onRenderBody = onRenderBody;
